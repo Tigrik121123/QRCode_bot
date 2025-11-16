@@ -1,11 +1,13 @@
+import os
+os.system("pip install telebot requests qrcode[Pill]")
 import telebot
 import requests
-import os
+
 import qrcode
 import time
-from dotenv import load_dotenv
+#from dotenv import load_dotenv
 
-load_dotenv()
+#load_dotenv()
 
 bot = telebot.TeleBot("8540881896:AAH_jeYaEFfN48ZqTao1LSSsAAH75NzN0dI")
 
@@ -56,4 +58,5 @@ def handle_text(message):
 
 if __name__ == '__main__':
     print("Старт бота...")
+
     bot.polling(none_stop=True, interval=-0)
