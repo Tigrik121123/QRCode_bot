@@ -1,5 +1,5 @@
 import os
-os.system("pip install telebot requests qrcode[Pill]")
+os.system("pip install telebot requests qrcode]")
 import telebot
 import requests
 
@@ -60,3 +60,4 @@ if __name__ == '__main__':
     print("Старт бота...")
 
     bot.polling(none_stop=True, interval=-0)
+
